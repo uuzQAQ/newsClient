@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请输入邮箱地址"
+        android:id="@+id/et_email"
+        >
+        <requestFocus />
+    </EditText>
+    
+    <EditText
+        android:id="@+id/et_register_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户昵称"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        >
+
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_register_password"
+        android:ems="10"
+        android:hint="密码:6到16个字符"
+        android:inputType="textPassword"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/long_button_select"
+        android:text="立即注册"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/btn_registering"
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_agree"
+        android:checked="true"
+        android:text="我同意“服务条换”和“网络隐私保护和个人信息利用政策”"
+        />
+
+</LinearLayout>

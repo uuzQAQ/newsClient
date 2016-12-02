@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        >
+        
+        <com.edu.feicui.newsclient.View.HorizontalListView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/hlv"
+            />
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/type_more"
+            android:id="@+id/iv_typo_more"
+            android:clickable="true"
+            android:padding="6dp"
+            />
+        
+    </LinearLayout>
+
+    <com.edu.feicui.newsclient.XListView.XListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/xlv"
+        />
+
+</LinearLayout>
